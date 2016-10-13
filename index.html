@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/style.css" >
+</head>
+<body>
+<h1>Html5 reproductor video</h1>
+<div id ="video-controls">
+  <i   class="fa fa-fast-backward fa-2x"  id="backward" aria-hidden="true"></i>
+  <i   class="fa fa-fast-forward fa-2x" id="forward" aria-hidden="true"></i>
+  <i class="fa fa-backward fa-2x" id="slower" aria-hidden="true"></i>
+  <i class="fa fa-forward fa-2x" id = "faster" aria-hidden="true"></i>
+
+
+
+</div>
+<video controls>
+  <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge.mp4" type="video/mp4">
+    <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge.ogg" type="video/ogg">
+</video>
+<input type="text" id="next-video">
+<input type="button" id ="load-video" value="load video">
+
+
+<script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src = "js/main.js">
+
+  </script>
+</body>
+</html>
